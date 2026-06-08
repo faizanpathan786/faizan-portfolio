@@ -9,7 +9,7 @@ const PORTRAIT_URL = '/faizan-avatar.png';
 export default function HeroSection() {
   return (
     <section
-      className="relative min-h-screen flex flex-col"
+      className="relative sm:min-h-screen flex flex-col"
       style={{ overflowX: 'clip' }}
     >
       {/* Navbar */}
@@ -18,7 +18,7 @@ export default function HeroSection() {
         immediate
         delay={0}
         y={-20}
-        className="relative z-20 flex justify-between gap-1 px-4 sm:px-6 md:px-10 pt-6 md:pt-8"
+        className="relative z-20 flex justify-between gap-1 px-4 sm:px-6 md:px-10 pt-3 sm:pt-6 md:pt-8"
       >
         {NAV_LINKS.map((link) => (
           <a
@@ -38,7 +38,7 @@ export default function HeroSection() {
           immediate
           delay={0.15}
           y={40}
-          className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-center text-[9vw] sm:text-[10vw] md:text-[10.5vw] lg:text-[11.5vw] mt-6 sm:mt-4 md:-mt-5"
+          className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-center text-[9vw] sm:text-[10vw] md:text-[10.5vw] lg:text-[11.5vw] mt-2 sm:mt-4 md:-mt-5"
         >
           Hi, i&apos;m faizan
         </FadeIn>
@@ -61,7 +61,7 @@ export default function HeroSection() {
       </FadeIn>
 
       {/* Bottom bar */}
-      <div className="relative z-20 mt-auto flex justify-between items-end px-6 md:px-10 pb-7 sm:pb-8 md:pb-10">
+      <div className="relative z-20 mt-auto flex justify-between items-end px-6 md:px-10 pb-4 sm:pb-7 md:pb-10">
         <FadeIn
           as="p"
           immediate

@@ -18,7 +18,7 @@ export default function HeroSection() {
         immediate
         delay={0}
         y={-20}
-        className="relative z-20 flex justify-between gap-1 px-4 sm:px-6 md:px-10 pt-3 sm:pt-6 md:pt-8"
+        className="relative z-20 flex justify-between gap-1 px-4 sm:px-6 md:px-10 pt-5 sm:pt-6 md:pt-8"
       >
         {NAV_LINKS.map((link) => (
           <a
@@ -50,7 +50,7 @@ export default function HeroSection() {
         immediate
         delay={0.4}
         y={30}
-        className="sm:hidden flex items-center justify-center px-8 py-3"
+        className="sm:hidden flex items-center justify-center px-8 py-14"
       >
         <img
           src={PORTRAIT_URL}
@@ -61,7 +61,7 @@ export default function HeroSection() {
       </FadeIn>
 
       {/* Bottom bar */}
-      <div className="relative z-20 mt-auto flex justify-between items-end px-6 md:px-10 pb-4 sm:pb-7 md:pb-10">
+      <div className="relative z-20 mt-auto flex justify-between items-end px-6 md:px-10 pb-7 sm:pb-7 md:pb-10">
         <FadeIn
           as="p"
           immediate

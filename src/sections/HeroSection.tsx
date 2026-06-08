@@ -50,7 +50,7 @@ export default function HeroSection() {
         immediate
         delay={0.4}
         y={30}
-        className="sm:hidden flex-1 min-h-0 flex items-center justify-center px-8 py-6"
+        className="sm:hidden flex items-center justify-center px-8 py-3"
       >
         <img
           src={PORTRAIT_URL}
